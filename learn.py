@@ -21,3 +21,13 @@ spectrogram = librosa.amplitude_to_db(magnitude)
 mel_spec = librosa.feature.melspectrogram(y=audio,sr=sr)
 #print(mel_spec)
 #print(mel_spec.shape)
+
+zcr = librosa.feature.zero_crossing_rate(audio)
+#print(zcr)
+
+mfcc = librosa.feature.mfcc(
+    y=audio,
+    sr=sr,
+    n_mfcc=13
+)
+print(mfcc)
