@@ -1,0 +1,15 @@
+September 2025 rainfall audios : https://www.kaggle.com/datasets/amarnathdj/sept-2025-rainfall-data
+September 2025 mechanical rainfall data : https://www.kaggle.com/datasets/amarnathdj/sept-2025-mech-data
+October 2025 rainfall audios : https://www.kaggle.com/datasets/amarnathdj/oct-2025-rainfall-data
+October 2025 mechanical rainfall data : https://www.kaggle.com/datasets/amarnathdj/oct-2025-mech-rainfall-data
+September 2024 rainfall audios and csv : https://www.kaggle.com/datasets/amarnathdj/sept-2024-rainfall-data
+November 2023 rainfall audios and csv : https://www.kaggle.com/datasets/amarnathdj/nov-2023-rainfall-data
+May 2024 rainfall audios and csv : https://www.kaggle.com/datasets/amarnathdj/may-2024-rainfall-data
+July 2024 rainfall audios and csv : https://www.kaggle.com/datasets/amarnathdj/july-2024-rainfall-data
+January 2024 rainfall audios and csv : https://www.kaggle.com/datasets/amarnathdj/jan-2024-rainfall-data
+April 2024 rainfall audios and csv : https://www.kaggle.com/datasets/amarnathdj/april-2024-rainfall-data
+December 2023 rainfall audios and csv : https://www.kaggle.com/datasets/amarnathdj/dec-2023-rainfall-data
+December 2024 rainfaull audios : https://www.kaggle.com/datasets/amarnathdj/december-2024-rain-data
+December 2024 mechanical rainfall data : https://www.kaggle.com/datasets/amarnathdj/august-2-25-rain-data
+November 2024 rainfall audios : https://www.kaggle.com/datasets/amarnathdj/nov-2024-rainfall-data
+November 2024 mechanical rainfall data : https://www.kaggle.com/datasets/amarnathdj/nov-2024-mech-rainfall-data
