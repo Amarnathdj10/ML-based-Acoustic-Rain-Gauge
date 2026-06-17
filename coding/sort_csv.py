@@ -2,7 +2,7 @@ from pathlib import Path
 import pandas as pd
 
 # Load CSV
-df = pd.read_csv("D:\Coding journey\ML-based Acoustic Rain Gauge\oct_to_nov_2024.csv")
+df = pd.read_csv("D:\Coding journey\ML-based Acoustic Rain Gauge\MECH DATA 24-25.csv")
 
 # Convert timestamp column to datetime
 df["time"] = pd.to_datetime(df["time"])
