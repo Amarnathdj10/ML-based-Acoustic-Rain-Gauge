@@ -2,7 +2,7 @@ from pathlib import Path
 import shutil
 from datetime import datetime
 
-root = Path("split_by_date")
+root = Path("split_by_date_2")
 
 for csv_file in root.glob("*.csv"):
 
