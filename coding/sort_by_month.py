@@ -1,31 +1,69 @@
 from pathlib import Path
-import shutil
-from datetime import datetime
+import pandas as pd
 
-root = Path("split_by_date_2")
+folder = Path(
+    r"D:\Coding journey\ML-based Acoustic Rain Gauge\merged_split_by_date\Nov_2024"
+)
 
-for csv_file in root.glob("*.csv"):
+csv_files = list(folder.glob("*.csv"))
 
-    try:
-        # Parse filename like 01-12-24.csv
-        date = datetime.strptime(
-            csv_file.stem,
-            "%d-%m-%y"
-        )
+if not csv_files:
+    raise Exception("No CSV files found")
 
-        month_folder = (
-            root /
-            f"{date.strftime('%b')}_{date.year}"
-        )
+dfs = []
 
-        month_folder.mkdir(exist_ok=True)
+for csv_file in csv_files:
+    print(f"Reading {csv_file.name}")
 
-        shutil.move(
-            str(csv_file),
-            str(month_folder / csv_file.name)
-        )
+    df = pd.read_csv(csv_file, low_memory=False)
 
-        print(f"Moved {csv_file.name} -> {month_folder.name}")
+    # Remove empty columns
+    df = df.dropna(axis=1, how="all")
 
-    except ValueError:
-        print(f"Skipped: {csv_file.name}")
+    dfs.append(df)
+
+# Combine
+combined_df = pd.concat(dfs, ignore_index=True)
+
+# Convert timestamp column
+combined_df["time"] = pd.to_datetime(
+    combined_df["time"],
+    errors="coerce"
+)
+
+# Remove invalid rows
+combined_df = combined_df.dropna(subset=["time"])
+
+# Sort chronologically
+combined_df = combined_df.sort_values("time")
+
+# Remove duplicate timestamps
+combined_df = combined_df.drop_duplicates(
+    subset=["time"]
+)
+
+# Reset index
+combined_df = combined_df.reset_index(drop=True)
+
+# Output file
+output_file = (
+    folder /
+    "november_2024_mechanical_rainfall_data.csv"
+)
+
+combined_df.to_csv(
+    output_file,
+    index=False
+)
+
+print(f"\nCreated {output_file}")
+print(f"Rows: {len(combined_df)}")
+
+# Delete source CSVs
+for csv_file in csv_files:
+
+    if csv_file != output_file:
+        csv_file.unlink()
+        print(f"Deleted {csv_file.name}")
+
+print("\nFinished.")
