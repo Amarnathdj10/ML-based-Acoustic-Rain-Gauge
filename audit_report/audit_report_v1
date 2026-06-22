@@ -362,6 +362,37 @@ Followed by:
 
 ---
 
+# 11. Dataset Coverage Analysis
+
+The consolidated aligned dataset contains:
+
+| Metric                    |          Value |
+| ------------------------- | -------------: |
+| Total Samples             |         28,657 |
+| Time Window per Sample    |      3 minutes |
+| Total Monitoring Duration | 85,971 minutes |
+| Total Monitoring Duration |  1,432.9 hours |
+| Total Monitoring Duration |      59.7 days |
+
+## Audio Recording Coverage
+
+The dataset consists of both 10-second and 3-second audio recording schemes.
+
+Estimated total audio duration represented by all aligned samples:
+
+| Metric               |        Value |
+| -------------------- | -----------: |
+| Total Audio Duration | ~1,364 hours |
+| Total Audio Duration |   ~56.8 days |
+
+## Observation
+
+The dataset provides approximately 1,433 hours of aligned rainfall monitoring data and approximately 1,364 hours of corresponding acoustic recordings collected between November 2023 and June 2026.
+
+This represents a large-scale real-world acoustic rainfall dataset spanning multiple seasons, rainfall intensities, and environmental conditions. The temporal coverage and audio volume are considered sufficient for both traditional machine learning and deep learning approaches to rainfall estimation.
+
 # Final Assessment
 
 The dataset is of good overall quality and suitable for machine learning development after removal of a small number of invalid labels and duplicate records. The principal challenge for future modeling is the highly skewed rainfall intensity distribution, where nearly 78% of rain samples correspond to rainfall amounts below 0.5 mm.
+
+
