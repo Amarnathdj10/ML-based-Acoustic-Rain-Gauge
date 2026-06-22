@@ -365,4 +365,3 @@ Followed by:
 # Final Assessment
 
 The dataset is of good overall quality and suitable for machine learning development after removal of a small number of invalid labels and duplicate records. The principal challenge for future modeling is the highly skewed rainfall intensity distribution, where nearly 78% of rain samples correspond to rainfall amounts below 0.5 mm.
-
