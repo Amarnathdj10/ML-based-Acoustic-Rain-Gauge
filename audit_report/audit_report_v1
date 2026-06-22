@@ -374,16 +374,83 @@ The consolidated aligned dataset contains:
 | Total Monitoring Duration |  1,432.9 hours |
 | Total Monitoring Duration |      59.7 days |
 
-## Audio Recording Coverage
 
-The dataset consists of both 10-second and 3-second audio recording schemes.
+Months Available:
 
-Estimated total audio duration represented by all aligned samples:
+Nov 2023
+Dec 2023
 
-| Metric               |        Value |
-| -------------------- | -----------: |
-| Total Audio Duration | ~1,364 hours |
-| Total Audio Duration |   ~56.8 days |
+Apr 2024
+May 2024
+Jul 2024
+Sep 2024
+Dec 2024
+
+Jan 2025
+May 2025
+Jun 2025
+Aug 2025
+Oct 2025
+
+Feb–Mar 2026
+May 2026
+Jun 2026
+
+# 12. Temporal Coverage Analysis
+
+A distinction must be made between cumulative monitoring duration and the number of recording days represented in the dataset.
+
+## Distinct Recording Days
+
+Analysis of the timestamp field showed that recordings were collected on:
+
+**136 distinct calendar days**
+
+between:
+
+**November 2023 and June 2026**
+
+This indicates that data collection occurred across multiple recording campaigns spanning approximately 2.5 years.
+
+## Cumulative Monitoring Duration
+
+The aligned dataset contains:
+
+* 28,657 samples
+* Each sample represents a 3-minute rainfall observation window
+
+Therefore:
+
+28,657 × 3 minutes = 85,971 minutes
+
+Equivalent to:
+
+* 1,432.9 hours
+* 59.7 days of cumulative monitoring duration
+
+## Interpretation
+
+The cumulative duration of approximately 60 days should not be interpreted as continuous recording over only 60 calendar days.
+
+Instead:
+
+* Data collection spans approximately 2.5 years
+* Recordings were obtained on 136 separate calendar days
+* The aligned samples collectively represent approximately 1,433 hours of rainfall monitoring windows
+
+This distinction is important because the dataset captures rainfall events across multiple seasons, years, environmental conditions, and recording campaigns rather than representing a single continuous recording period.
+
+## Significance
+
+The combination of:
+
+* 136 recording days
+* 28,657 aligned samples
+* Approximately 7,000 rain events
+* Coverage from November 2023 to June 2026
+
+provides substantial temporal diversity for rainfall estimation and acoustic modeling. The dataset includes observations from multiple monsoon periods, dry periods, and varying rainfall intensities, improving the potential robustness and generalizability of machine learning models trained on the data.
+
 
 ## Observation
 
