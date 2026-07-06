@@ -380,10 +380,12 @@ Months Available:
 Nov 2023
 Dec 2023
 
+Jan 2024
 Apr 2024
 May 2024
 Jul 2024
 Sep 2024
+Nov 2024
 Dec 2024
 
 Jan 2025
@@ -461,5 +463,3 @@ This represents a large-scale real-world acoustic rainfall dataset spanning mult
 # Final Assessment
 
 The dataset is of good overall quality and suitable for machine learning development after removal of a small number of invalid labels and duplicate records. The principal challenge for future modeling is the highly skewed rainfall intensity distribution, where nearly 78% of rain samples correspond to rainfall amounts below 0.5 mm.
-
-
