@@ -377,14 +377,14 @@ The consolidated aligned dataset contains:
 
 Months Available:
 
-Nov 2023✅
-Dec 2023✅
+Nov 2023
+Dec 2023
 
-Jan 2024✅
-Apr 2024✅
-May 2024✅
+Jan 2024
+Apr 2024
+May 2024
 Jul 2024
-Sep 2024✅
+Sep 2024
 Nov 2024
 Dec 2024
 
