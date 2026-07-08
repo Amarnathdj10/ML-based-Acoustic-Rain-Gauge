@@ -377,26 +377,26 @@ The consolidated aligned dataset contains:
 
 Months Available:
 
-Nov 2023
-Dec 2023
+Nov 2023✅
+Dec 2023✅
 
 Jan 2024
-Apr 2024
-May 2024
-Jul 2024
+Apr 2024✅
+May 2024✅
+Jul 2024✅
 Sep 2024
 Nov 2024
 Dec 2024
 
 Jan 2025
-May 2025
-Jun 2025
+May 202
+Jun 2025✅
 Aug 2025
 Oct 2025
 
 Feb–Mar 2026
 May 2026
-Jun 2026
+Jun 2026✅
 
 # 12. Temporal Coverage Analysis
 
