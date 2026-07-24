@@ -3,4 +3,4 @@
 Acoustic_raingauge/
 audio_files/
 *.csv
-*__pycache__
+__pycache__
