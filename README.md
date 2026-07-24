@@ -2,7 +2,7 @@
 
 > Predicting rainfall intensity from environmental audio using signal processing and machine learning — no optical or mechanical sensors required.
 
-Developed as part of a research internship at **ICFOSS, Thiruvananthapuram** (June 2026 – Present).
+Developed as part of a research internship at **ICFOSS, Thiruvananthapuram**.
 
 ---
 
